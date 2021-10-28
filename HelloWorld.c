@@ -6,7 +6,7 @@ int main(int argc, char const *argv[])
     printf("A vectorpie\n");
     printf("A conglomerate of Stardust!!\n");
     printf("Number of character from comand-line - %d\n",argc);
-    printf("Strings from command-line ...\n");
+    printf("Strings from the command-line ...\n");
     for(int i=0;i<argc;i++){
         printf("%s ",argv[i]);
     }
